@@ -1,5 +1,4 @@
 name: Run Login Script
-
 on:
 workflow_dispatch:
   schedule:
