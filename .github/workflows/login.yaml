@@ -1,5 +1,5 @@
 name: Run Login Script
-
+workflow_dispatch:
 on:
   schedule:
     - cron: "0 0 */3 * *"  # 每三天运行一次，可以根据需求调整时间
